@@ -1,0 +1,4 @@
+body {
+  margin: 0 auto;
+  width: min(100% - 2rem, 60ch);
+}
