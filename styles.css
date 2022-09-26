@@ -1,4 +1,16 @@
+:root {
+  --max-width: 68ch;
+}
+
 body {
+  font-family: system-ui;
+  color: rgb(0, 0, 0, 0.9);
   margin: 0 auto;
-  width: min(100% - 2rem, 68ch);
+  width: min(100% - 2rem, var(--max-width));
+}
+
+footer {
+  margin-top: 2rem;
+  font-size: 0.8rem;
+  color: rgb(0, 0, 0, 0.6);
 }
